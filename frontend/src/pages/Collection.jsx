@@ -1,11 +1,11 @@
 import React from 'react'
 
-const App = () => {
+const Collection = () => {
   return (
-    <div className=''>
+    <div>
       
     </div>
   )
 }
 
-export default App
+export default Collection
