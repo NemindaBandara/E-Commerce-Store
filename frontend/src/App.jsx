@@ -10,12 +10,14 @@ import Orders from './pages/Orders'
 import PlaceOrder from './pages/PlaceOrder'
 import Product from './pages/Product'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 
 const App = () => (
   <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
 
     <Navbar />
+    {/* <Hero /> */}
 
     <Routes>
       <Route path='/' element={<Home />} />
