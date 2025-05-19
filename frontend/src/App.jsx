@@ -11,6 +11,8 @@ import PlaceOrder from './pages/PlaceOrder'
 import Product from './pages/Product'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Footer from './components/Footer'
+import SerachBar from './components/SerachBar'
 
 
 const App = () => (
@@ -18,6 +20,7 @@ const App = () => (
 
     <Navbar />
     {/* <Hero /> */}
+    <SerachBar />
 
     <Routes>
       <Route path='/' element={<Home />} />
@@ -30,6 +33,8 @@ const App = () => (
       <Route path='/place-order' element={<PlaceOrder/>} />
       <Route path='product/:productId' element={<Product/>} />
     </Routes>
+
+    <Footer />
 
   </div>
 )
