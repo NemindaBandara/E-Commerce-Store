@@ -76,3 +76,6 @@ const Product = () => {
 }
 
 export default Product
+
+sessionStoragex
+ghj
