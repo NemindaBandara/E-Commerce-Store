@@ -13,10 +13,13 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Footer from './components/Footer'
 import SerachBar from './components/SerachBar'
+import { ToastContainer, toast } from 'react-toastify';
 
 
 const App = () => (
   <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
+    
+    <ToastContainer />
 
     <Navbar />
     {/* <Hero /> */}
