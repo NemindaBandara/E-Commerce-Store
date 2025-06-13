@@ -81,3 +81,5 @@ const removeProduct = async (req, res) => {};
 const singleProduct = async (req, res) => {};
 
 export { listProducts, addProduct, removeProduct, singleProduct };
+
+//fggh
